@@ -1,0 +1,25 @@
+Overview:
+
+This project demonstrates a simple one server and many client communication using sockets in C++. The server listens for incoming connections, while the client connects to the server to exchange messages.
+
+Features
+
+    Basic socket communication using TCP.
+    Server can handle one client connection at a time.
+    Exits gracefully upon receiving a "bye" message.
+
+
+Requirements
+
+    C++ compiler (g++ recommended)
+    Linux operating system
+
+Compilation
+   g++ -o server server.cpp -pthread
+   g++ -o client client.cpp
+
+
+Note:
+   First execute server binary and then execute client binary with argument port mention in code or you can change port before compilation and in 
+   client execution give port as argument.
+   
